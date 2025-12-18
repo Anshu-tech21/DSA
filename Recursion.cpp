@@ -31,5 +31,7 @@ int main(){
   cout<<" " << endl;
   cout<<factorial(4)<<endl;
   cout<<sum(4)<<endl;
+
+  return 0;
   
 }
