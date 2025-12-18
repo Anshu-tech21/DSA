@@ -16,5 +16,6 @@ int main(){
 
     cout<<isSorted(arr,arr.size());
 
-    return 0;
+    return 0;  // end of the main function.
+    
 }
