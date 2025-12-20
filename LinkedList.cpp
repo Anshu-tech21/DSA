@@ -94,6 +94,19 @@ class LinkedList{
         newNode->next=temp->next;
         temp->next=newNode;
     }
+
+    int search(int key){
+        int idx = 0;
+        Node* temp = head;
+        while(temp != NULL){
+            if(temp->data==key){
+                return idx;
+            }
+            temp = temp->next;
+            idx++;
+        }
+        return -1;
+    }
     void print(){
         Node* temp = head;
 
@@ -115,10 +128,12 @@ int main(){
    list.push_back(5);
    
    list.insert(8,1);
+
+   
   /* list.Pop_front();
    list.Pop_back();*/
 
    list.print();
-
+   cout<<"The index is : "<<list.search(8);
    return 0;
 }
