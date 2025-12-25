@@ -65,10 +65,10 @@ int main(){
     cq.push(4);
     cq.print();
 
-    while(!cq.empty()){ // printing the circular queue from the front to rear.
+   /* while(!cq.empty()){ // printing the circular queue from the front to rear.
         cout << cq.front()<< " ";
         cq.pop();
-    }
+    }*/
     cout<<endl;
     return 0;
 }
