@@ -1,0 +1,13 @@
+# Compiled binaries
+*.exe
+*.o
+*.a
+*.so
+*.dylib
+*.dll
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
